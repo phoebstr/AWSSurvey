@@ -1,0 +1,10 @@
+# Avoid committing anything that could potentially contain sensitive data
+*.json
+*.xlx
+*.csv
+*.txt
+*.md
+
+# This repo is specifically for shell scripts
+!readme.md
+!*.sh
